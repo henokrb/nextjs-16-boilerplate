@@ -20,16 +20,16 @@ It includes **SEO optimizations**, full **responsiveness**, and built-in **Dark/
 ## 📸 Screenshots
 
 ### Image 01 – Desktop Light Mode
-![Desktop Light Mode](/desktop-light.png)
+![Desktop Light Mode](https://nextjs-16-boilerplate.vercel.app/desktop-light.png)
 
 ### Image 02 – Desktop Dark Mode
-![Desktop Dark Mode](/desktop-dark.png)
+![Desktop Dark Mode](https://nextjs-16-boilerplate.vercel.app/desktop-dark.png)
 
 ### Image 03 – Responsive
-![Responsive](/responsive.png)
+![Responsive](https://nextjs-16-boilerplate.vercel.app/responsive.png)
 
 ### Image 04 – Responsive Menu
-![Responsive Menu](/responsive-menu.png)
+![Responsive Menu](https://nextjs-16-boilerplate.vercel.app/responsive-menu.png)
 
 ---
 
