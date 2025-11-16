@@ -1,0 +1,10 @@
+import React from 'react'
+
+export default function UsersLayout( { children }: { children: React.ReactNode }) {
+  return (
+    <div>
+        <h1 className='text-red-500'>Users Layout</h1>
+        {children}
+    </div>
+  )
+}
