@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
@@ -199,8 +200,24 @@ const renderMobileNavItem = (item: (typeof navItems)[0]) => {
               <div className="flex justify-between items-center mb-8">
                 <Link href="/" onClick={closeAll} aria-label="Atlantic IT Solutions Home">           
                   <div className="md:hidden">
-                    <div className="w-[150px] h-[40px] bg-logo-mobile-dark bg-cover bg-no-repeat dark:hidden" />
-                    <div className="w-[150px] h-[40px] bg-logo-mobile-light bg-cover bg-no-repeat hidden dark:block" />
+                    <Image
+                      src="/logo-mobile-light.png"
+                      alt="Atlantic IT Solutions"
+                      width={150}
+                      height={40}
+                      className="dark:hidden"
+                      priority
+                      fetchPriority="high"
+                    />
+                    <Image
+                      src="/logo-mobile-dark.png"
+                      alt="Atlantic IT Solutions"
+                      width={150}
+                      height={40}
+                      className="hidden dark:block"
+                      priority
+                      fetchPriority="high"
+                    />
                   </div> 
                 </Link>
                 <button 
