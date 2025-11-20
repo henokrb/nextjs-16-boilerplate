@@ -197,7 +197,7 @@ const renderMobileNavItem = (item: (typeof navItems)[0]) => {
           <nav className="fixed inset-0 z-50 bg-white dark:bg-black/100 dark:text-gray-100">
             <div className="h-full overflow-auto p-6">
               <div className="flex justify-between items-center mb-8">
-                <Link href="/" onClick={closeAll}>           
+                <Link href="/" onClick={closeAll} aria-label="Atlantic IT Solutions Home">           
                   <div className="md:hidden">
                     <div className="w-[150px] h-[40px] bg-logo-mobile-dark bg-cover bg-no-repeat dark:hidden" />
                     <div className="w-[150px] h-[40px] bg-logo-mobile-light bg-cover bg-no-repeat hidden dark:block" />
@@ -205,6 +205,7 @@ const renderMobileNavItem = (item: (typeof navItems)[0]) => {
                 </Link>
                 <button 
                   onClick={closeAll} 
+                  aria-label="Close menu"
                   className="p-2 rounded-lg bg-gray-100 hover:bg-gray-200 transition"
                 >
                   <X size={20} className="text-gray-900" />

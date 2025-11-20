@@ -1,8 +1,12 @@
+"use client";
+
 import React from "react";
+import dynamic from "next/dynamic";
 import Link from "next/link";
 import Image from "next/image";
-import ThemeToggle from "../ThemeToggle";
-import Navigation from "./Navigation";
+
+const ThemeToggle = dynamic(() => import("../ThemeToggle"), { ssr: false });
+const Navigation = dynamic(() => import("./Navigation"), { ssr: false });
 
 function Header() {
   return (
@@ -10,7 +14,7 @@ function Header() {
   <div className="p-0 max-w-7xl mx-auto md:px-6 md:py-4 flex items-center justify-between">
     {/* Logo Section - Left on Desktop, Centered on Mobile */}
     <div className="order-2 md:order-1 flex-1 flex justify-center md:flex-none md:justify-start"> {/* Added flex-1 and justify-center for mobile */}
-      <Link href="/">
+      <Link href="/" aria-label="Atlantic IT Solutions Home">
         {/* Mobile Logos - Remove absolute positioning, use flex instead */}
         <div className="md:hidden">
           <div className="w-[150px] h-[40px] bg-logo-mobile-dark bg-cover bg-no-repeat dark:hidden" />

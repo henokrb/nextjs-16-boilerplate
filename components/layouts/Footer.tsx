@@ -8,13 +8,13 @@ function Footer() {
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo Section */}
           <div className="shrink-0">
-            <Link href="/" className="text-2xl font-bold text-indigo-600">
+            <Link href="/" className="text-2xl font-bold text-indigo-600" aria-label="Atlantic IT Solutions Home">
               <span className="block dark:hidden">
                 <Image
                   src="/logo-mobile-light.png"
                   alt="Website logo (light theme)"
-                  width={180}
-                  height={38}
+                  width={142}
+                  height={40}
                   priority
                 />
               </span>
@@ -22,8 +22,8 @@ function Footer() {
                 <Image
                   src="/logo-mobile-dark.png"
                   alt="Website logo (dark theme)"
-                  width={180}
-                  height={38}
+                  width={142}
+                  height={40}
                   priority
                 />
               </span>

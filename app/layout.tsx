@@ -201,7 +201,7 @@ const localBusinessSchema = {
               dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas) }}
             />
             <Header /> 
-            <main className="flex-1 justify-center items-center p-4">
+            <main className="flex-1 justify-center items-center p-4 min-h-screen">
             {children}
             </main>
             <Footer />

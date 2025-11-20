@@ -126,6 +126,7 @@ export default function ThemeToggle() {
   return (
     <button
       onClick={toggle}
+      aria-label="Toggle theme"
       className="p-2 rounded-md transition-all duration-300 
                  bg-gray-200 dark:bg-gray-800 
                  text-gray-800 dark:text-gray-100 

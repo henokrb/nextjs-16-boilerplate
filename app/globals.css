@@ -116,6 +116,7 @@
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
   }
@@ -133,6 +134,7 @@ html {
 .bg-logo-mobile-light {
   background-image: url('/logo-mobile-dark.png');
 }
+
 .bg-logo-mobile-dark {
   background-image: url('/logo-mobile-light.png');
 }
@@ -141,6 +143,7 @@ html {
 .bg-logo-desktop-light {
   background-image: url('/logo-desktop-dark.png');
 }
+
 .bg-logo-desktop-dark {
   background-image: url('/logo-desktop-light.png');
 }
