@@ -17,8 +17,24 @@ function Header() {
       <Link href="/" aria-label="Atlantic IT Solutions Home">
         {/* Mobile Logos - Remove absolute positioning, use flex instead */}
         <div className="md:hidden">
-          <div className="w-[150px] h-[40px] bg-logo-mobile-dark bg-cover bg-no-repeat dark:hidden" />
-          <div className="w-[150px] h-[40px] bg-logo-mobile-light bg-cover bg-no-repeat hidden dark:block" />
+          <Image
+            src="/logo-mobile-light.png"
+            alt="Atlantic IT Solutions"
+            width={0}
+            height={0}
+            sizes="100vw"
+            className="dark:hidden w-auto h-[40px]"
+            priority
+          />
+          <Image
+            src="/logo-mobile-dark.png"
+            alt="Atlantic IT Solutions"
+            width={0}
+            height={0}
+            sizes="100vw"
+            className="hidden dark:block w-auto h-[40px]"
+            priority
+          />
         </div>
 
         {/* Desktop Logos - Left aligned */}
