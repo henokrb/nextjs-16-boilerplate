@@ -14,21 +14,21 @@ function Header() {
           <Link href="/" aria-label="Atlantic IT Solutions Home">
             {/* Mobile Logos - Remove absolute positioning, use flex instead */}
             <div className="md:hidden">
-              <img
+              <Image
                 src="/logo-mobile-light.png"
                 alt="Atlantic IT Solutions"
-                width="150"
-                height="40"
+                width={142}
+                height={40}
                 className="dark:hidden w-auto h-[40px]"
-                fetchPriority="high"
+                priority
               />
-              <img
+              <Image
                 src="/logo-mobile-dark.png"
                 alt="Atlantic IT Solutions"
-                width="150"
-                height="40"
+                width={142}
+                height={40}
                 className="hidden dark:block w-auto h-[40px]"
-                fetchPriority="high"
+                priority
               />
             </div>
 
