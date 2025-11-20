@@ -31,7 +31,13 @@ It includes **SEO optimizations**, full **responsiveness**, and built-in **Dark/
 ### Image 04 – Responsive Menu
 ![Responsive Menu](https://nextjs-16-boilerplate.vercel.app/responsive-menu.png)
 
----
+
+### Image 05 – Desktop Version Performance Score
+![Responsive Menu](https://nextjs-16-boilerplate.vercel.app/performance-desktop.png)
+
+
+### Image 06 – Mobile Version Performance Score
+![Responsive Menu](https://nextjs-16-boilerplate.vercel.app/performance-mobile.png)
 
 ## Getting Started
 
